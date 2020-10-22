@@ -1,0 +1,21 @@
+name: AvMBD
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - deprecated
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pydicom
+  - python=3.8
+  - pytorch
+  - pytorch-lightning
+  - torchvision
+  - xlrd
+  - pip:
+      - monai
+      - SimpleITK
+      - segmentation-models-pytorch
