@@ -4,7 +4,7 @@ from monai.transforms import Compose
 from monai.transforms.intensity.dictionary import NormalizeIntensityd
 from monai.transforms.spatial.dictionary import Resized, Rotate90d
 from monai.transforms.utility.dictionary import ToNumpyd, CastToTyped, SqueezeDimd
-from data_management.monai_master.dictionary import LoadDatad
+from monai.transforms.io.dictionary import LoadDatad
 from monai.transforms import ToTensord, AddChanneld
 from deprecated import deprecated
 

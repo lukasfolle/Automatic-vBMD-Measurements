@@ -10,7 +10,12 @@ from data_management.ct.VolumeIO import prepare_info_dict, write_volume
 from data_management.ct.scanco_script.parse_header_file import parse_header
 from deep_learning.validate_full_res import FullResolutionDataModule
 from deep_learning.validate_full_res import FullResolutionModel
-from deep_learning.visualize_model_predictions import get_latest_model
+
+
+def get_latest_model(path):
+    checkpoints = os.listdir(path)
+    latest_model = sorted(checkpoints)[-1]
+    return latest_model
 
 
 class Inference:

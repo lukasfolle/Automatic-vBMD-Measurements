@@ -21,10 +21,10 @@ def combine(commands: list):
 
 
 if __name__ == "__main__":
-    gobj_path = r"C:\Users\follels\TEMP"
+    gobj_path = r"Fill_in_path"
     gobj_files = [os.path.join(gobj_path, gobj_name) for gobj_name in os.listdir(gobj_path)]
     commands = ""
-    scanco_folder = "DK0:[MICROCT.FOLLE."
+    scanco_folder = "DK0:[MICROCT.TEST"
     # After calling collect_gobis, they have to be transfered back to the CT using FileZilla any folder.
     # IPL script have to be executed in this scanco folder afterwards.
     # After that, copy header and seg.aim back to workstation.

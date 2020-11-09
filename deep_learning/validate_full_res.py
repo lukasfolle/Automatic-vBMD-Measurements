@@ -10,7 +10,7 @@ from data_management.Dataset import get_persistent_dataset
 from data_management.ct.Database import MCPDatabase
 from data_management.ct.VolumeIO import ScancoLoader
 from deep_learning.ct_model import DataModule, Model, Model3D
-from deep_learning.visualize_model_predictions import get_latest_model
+from deep_learning.inference import get_latest_model
 
 
 class FullResolutionDataModule(DataModule):
