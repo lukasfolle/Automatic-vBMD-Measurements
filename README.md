@@ -1,5 +1,5 @@
-# Code for the paper "Fully Automatic Bone Mineral Density Measurements using Deep Learning"
-This is the repository corresponding to the above mentioned paper.
+# Code corresponding to the paper "Deep Learning Methods Allow Fully Automated Segmentation of Metacarpal Bones to Quantify Volumetric Bone Mineral Density"
+This repository contains the necessary parts to recreate the results of our paper.
 ## Overview
 The "deep_learning" folder contains all pieces necessary to train the networks mentioned in the paper
 In "data_management" the components to interact with the propriatary file formats from the HR-pQCT scanner as well as dataset handling are included.
