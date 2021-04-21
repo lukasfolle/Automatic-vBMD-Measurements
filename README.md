@@ -16,9 +16,18 @@ conda env create -f environment.yml
 
 ### Training
 To train a network, use the file "ct_model.py" in the "deep_learning" folder.
+```
+python deep_learning/ct_model.py
+```
 
 ### Validation
 To validate the trained models on full resolution images, please use the "validate_full_res.py" file in the "deep_learning" folder.
+```
+python deep_learning/validate_full_res.py
+```
 
 ### Inference
 To use the trained models in a production environment please use "inference.py" in the "deep_learning" folder.
+```
+python deep_learning/inference.py
+```
